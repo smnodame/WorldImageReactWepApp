@@ -1,0 +1,37 @@
+<Iframe url="https://s.tradingview.com/widgetembed/?symbol=BXTH%3ABTCTHB&interval=240&hidesidetoolbar=0&saveimage=1&toolbarbg=f1f3f6&studies=%5B%5D&theme=White&style=1&timezone=Asia%2FSingapore&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en&utm_source=bx.in.th&utm_medium=widget&utm_campaign=chart&utm_term=BXTH%3ABTCTHB"
+    width="100%"
+    height="100%"
+    allowFullScreen/>
+
+
+
+    <Row className="show-grid">
+        <Col sm={6} md={6}>
+            <Card>
+                <CardHeader
+                    title="Without Avatar"
+                    subtitle="Subtitle"
+                    actAsExpander={true}
+                    showExpandableButton={true}
+                />
+                <CardActions>
+                    <FlatButton label="Action1" />
+                    <FlatButton label="Action2" />
+                </CardActions>
+            </Card>
+        </Col>
+        <Col sm={6} md={6}>
+            <Card>
+            <CardHeader
+                title="Without Avatar"
+                subtitle="Subtitle"
+                actAsExpander={true}
+                showExpandableButton={true}
+            />
+            <CardActions>
+            <FlatButton label="Action1" />
+            <FlatButton label="Action2" />
+            </CardActions>
+        </Card>
+        </Col>
+    </Row>
